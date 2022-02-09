@@ -16,6 +16,6 @@ You may also see any lint errors in the console.
 
 ## this repo contains files with examples for react hooks.
 
-# resources i refered to:
+### resources i refered to:
 
 1. https://www.youtube.com/playlist?list=PLC3y8-rFHvwisvxhZ135pogtX7_Oe3Q3A
