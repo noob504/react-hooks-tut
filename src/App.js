@@ -1,21 +1,42 @@
 import React from 'react'
 
 import './App.css';
-import Counter from './Components/Counter/Counter.jsx';
-import CounterTwo from './Components/CounterTwo/CounterTwo.jsx';
-// import CounterThree from './Components/CounterThree/CounterThree.jsx';
-import CounterFour from './Components/CounterFour/CounterFour.jsx';
+
+// useState Hook imports
+// import Counter from './Components/useStateHook/Counter.jsx';
+// import CounterTwo from './Components/useStateHook/CounterTwo.jsx';
+// import CounterThree from './Components/useStateHook/CounterThree.jsx';
+// import CounterFour from './Components/useStateHook/CounterFour.jsx';
+
+// ----------------------------------------------------------------------------- //
+
+// useEffect Hook imports
+// import CounterOne from './Components/useEffectHook/CounterOne.jsx';
+// import MousePointer from './Components/useEffectHook/MousePointer';
+// import MouseContainer from './Components/useEffectHook/MouseContainer';
+import IntervalCounter from './Components/useEffectHook/IntervalCounter';
 
 const App = () => {
   return (
     <div className="App">
       App
-      {/* <Counter /> */}
-      {/* <CounterTwo /> */}
-      {/* <CounterThree /> */}
-      <CounterFour />
+
+      {/* useState Hook */}
+
+      {/* <Counter />
+      <CounterTwo />
+      <CounterThree />
+      <CounterFour /> */}
+
+      {/* --------------------------------------- */}
+
+      {/* useEffect Hook */}
+      {/* <CounterOne /> */}
+      {/* <MousePointer /> */}
+      {/* <MouseContainer /> */}
+      <IntervalCounter />
     </div>
   )
 }
 
-export default App
+export default App;
