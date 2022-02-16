@@ -12,9 +12,10 @@ import './App.css';
 
 // useEffect Hook imports
 // import CounterOne from './Components/useEffectHook/CounterOne.jsx';
-// import MousePointer from './Components/useEffectHook/MousePointer';
-// import MouseContainer from './Components/useEffectHook/MouseContainer';
-import IntervalCounter from './Components/useEffectHook/IntervalCounter';
+// import MousePointer from './Components/useEffectHook/MousePointer.jsx';
+// import MouseContainer from './Components/useEffectHook/MouseContainer.jsx';
+// import IntervalCounter from './Components/useEffectHook/IntervalCounter.jsx';
+import DataFetching from './Components/useEffectHook/DataFetching.jsx';
 
 const App = () => {
   return (
@@ -34,7 +35,8 @@ const App = () => {
       {/* <CounterOne /> */}
       {/* <MousePointer /> */}
       {/* <MouseContainer /> */}
-      <IntervalCounter />
+      {/* <IntervalCounter /> */}
+      <DataFetching />
     </div>
   )
 }
